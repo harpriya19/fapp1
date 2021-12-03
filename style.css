@@ -1,0 +1,18 @@
+body{
+    background-image: radial-gradient( circle 685.3px at 47.8% 55.1%,  rgba(255,99,152,1) 0%, rgba(251,213,149,1) 90.1% );
+}
+.btn-warning{
+    width: 150;
+    height: 50;
+    font-size: 20px;
+}
+canvas{
+    
+    animation-name: color;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes color {
+    from {box-shadow: 1px 1px 38px rgb(228, 228, 84);}
+    to {box-shadow: 1px 1px 38px rgb(113, 113, 180) ;}
+}
